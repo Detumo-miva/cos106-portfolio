@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Detumo Alex</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="logo">Detumo<span>.Alex</span></div>
+    <nav class="main-nav">
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">&#9776;</button>
+      <ul class="nav-list" id="navList">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="planner.html">Academic Planner</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-intro">
+      <h1>Get In Touch</h1>
+      <p>Have a question or want to collaborate? Send me a message.</p>
+    </section>
+
+    <section class="contact-content">
+      <form id="contactForm" class="contact-form" novalidate>
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name">
+          <span class="error-message" id="nameError"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="text" id="email" name="email">
+          <span class="error-message" id="emailError"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="text" id="phone" name="phone">
+          <span class="error-message" id="phoneError"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5"></textarea>
+          <span class="error-message" id="messageError"></span>
+        </div>
+
+        <button type="submit" class="btn-primary">Send Message</button>
+        <p class="form-success" id="formSuccess"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Detumo Alex. Built for COS 106 Term Project, Miva Open University.</p>
+  </footer>
+
+  <script src="js/nav.js"></script>
+  <script src="js/validation.js"></script>
+</body>
+</html>
