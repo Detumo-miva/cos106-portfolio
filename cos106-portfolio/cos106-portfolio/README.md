@@ -52,4 +52,3 @@ cos106-portfolio/
 
 ## 👤 Author
 **Detumo Alex** — BSc Software Engineering Student, Miva Open University
-Backend Developer | Stock Manager | Microsoft Learn Student Ambassador
