@@ -3,7 +3,7 @@
 A multi-page, responsive portfolio and academic management website built for the COS 106 (Introduction to Web Technologies) term project at Miva Open University.
 
 ## 🔗 Live Site
-[Add your GitHub Pages link here once deployed]
+(https://moonlit-heliotrope-415cbb.netlify.app/)
 
 ## 📖 Overview
 This site combines a personal academic portfolio with a functional task management tool. It was built using semantic HTML5, external CSS (Flexbox & Grid), and vanilla JavaScript — no frameworks or libraries.
@@ -54,4 +54,4 @@ cos106-portfolio/
 
 ## 👤 Author
 **Detumo Alex** — BSc Software Engineering Student, Miva Open University
-Backend Developer | Stock Manager | Microsoft Learn Student Ambassador
+Backend Developer 
