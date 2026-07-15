@@ -113,8 +113,8 @@ p { color: var(--text-muted); margin-bottom: 1em; }
 }
 
 .profile-photo {
-  width: 140px;
-  height: 140px;
+  width: 280px;
+  height: 300px;
   border-radius: 50%;
   object-fit: cover;
   margin: 0 auto 1.2rem;
@@ -219,6 +219,36 @@ p { color: var(--text-muted); margin-bottom: 1em; }
   padding: 0.4rem 0.9rem;
   border-radius: 20px;
   font-size: 0.85rem;
+}
+
+/* ===== Tables & Video (About Page) ===== */
+.info-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.5rem 0 1.5rem;
+}
+
+.info-table th, .info-table td {
+  text-align: left;
+  padding: 0.7rem 1rem;
+  border: 1px solid var(--border-color);
+}
+
+.info-table th {
+  background-color: var(--bg-card);
+  color: var(--accent);
+}
+
+.info-table td {
+  color: var(--text-muted);
+}
+
+.intro-video {
+  width: 100%;
+  max-width: 500px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border-color);
+  margin-top: 0.5rem;
 }
 
 /* ===== Planner Page ===== */

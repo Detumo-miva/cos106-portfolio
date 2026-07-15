@@ -41,6 +41,8 @@ cos106-portfolio/
     ├── caerus.jpg
     ├── amanda.jpg
     └── freshwave.jpg
+└── videos/
+    └── intro.mp4
 ```
 
 ## 🚀 Running Locally
